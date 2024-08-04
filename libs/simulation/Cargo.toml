@@ -7,3 +7,8 @@ edition = "2021"
 nalgebra = { version = "0.33.0", features = ["rand-no-std"] }
 rand = "0.8.5"
 rand_chacha = "0.3.1"
+lib-neural-network = { path = "../neural-network" }
+lib-genetic-algorithm = { path = "../genetic-algorithm" }
+
+[dev-dependencies]
+test-case = "3.3.1"

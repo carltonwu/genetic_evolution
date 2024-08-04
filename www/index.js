@@ -11,6 +11,10 @@ var stop = false;
 var frameCount = 0;
 var fps, fpsInterval, startTime, now, then, elapsed;
 
+document.getElementById("train").onclick = function() {
+    console.log(simulation.train());
+}
+
 function startAnimating(fps) {
     fpsInterval = 1000 / fps;
     then = Date.now();
